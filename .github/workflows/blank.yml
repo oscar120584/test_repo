@@ -33,4 +33,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Fail
-        run: exit < cat test.txt 
+        run: exit < /sbin/cat test.txt 
